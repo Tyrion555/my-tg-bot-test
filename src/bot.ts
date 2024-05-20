@@ -17,7 +17,7 @@ const bot = new TelegramBot(token, { polling: true });
 // 监听 '/start' 命令
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
-  const welcomeMessage = "欢迎使用我的 Telegram 机器人!";
+  const welcomeMessage = "欢迎使用我的 Telegram 机器人!!!!";
   bot.sendMessage(chatId, welcomeMessage);
 });
 
