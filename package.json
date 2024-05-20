@@ -1,6 +1,9 @@
 {
+  "name": "my-tg-bot-test",
+  "description": "纯属测试",
+  "version": "1.0.0",
   "scripts": {
-    "start": "node dist/bot.js"
+    "start": "npx tsc && node dist/bot.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
