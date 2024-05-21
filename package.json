@@ -9,6 +9,9 @@
     "dotenv": "^16.4.5",
     "node-telegram-bot-api": "^0.65.1"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@types/node-telegram-bot-api": "^0.64.6",
